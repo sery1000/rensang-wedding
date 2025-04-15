@@ -1,5 +1,15 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌸 Custom Spring Colors */
+:root {
+  --cherry-blossom: #ffe4e1;
+  --forsythia: #fff44f;
+  --azalea: #ffb7c5;
+}
+
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #fffdf7;
+  @apply font-sans;
 }
